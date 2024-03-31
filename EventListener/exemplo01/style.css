@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.curso {
+    border: 2px solid rgb(167, 166, 166);
+    border-radius: 8px;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    padding: 2px;
+}
+.c1{
+    background-color: rgb(197, 196, 196);
+}
+
+.c2{
+    background-color: rgb(83, 82, 82);
+    color: white;
+}
+.curso:hover{
+    border-color: red;
+    cursor: pointer;   
+}
+
+.destaque{
+    border-color: brown;
+    background-color: red;
+    color: white;
+}
