@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    background-color: #025;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.curso{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border: 4px solid #888;
+    border-radius: 10px;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+.c1{
+    background-color: #ccc;
+    color: #444;
+}
+.c2{
+    background-color: #444;
+    color: #ccc;
+}
+.selecionado{
+    background-color: rgb(138, 9, 9);
+    color: #fcc;
+    border-color: #f00;
+}
+.caixa{
+    border: 4px solid #000;
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    height: 500px;
+    width: 300px;
+}
